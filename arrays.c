@@ -21,8 +21,9 @@ int main() {
     int *p2 = arr2;
 
     for (i = 0; i < 10; i++) {
-        *p2 = arr[9-i];
-        p2++;
+        // *p2 = arr[9-i];
+        // p2++;
+        arr2[i] = arr[9-i];
     }
 
     for (i = 0; i < 10; i++) {
