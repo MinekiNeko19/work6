@@ -15,4 +15,17 @@ int main() {
     for (i = 0; i < 10; i++) {
         printf("arr[%d]: %d\n",i,arr[i]);
     }
+
+    int arr2[10];
+    int *p1 = arr;
+    int *p2 = arr2;
+
+    // for (i = 1; i < 10; i++) {
+    //     *p2 = arr[10-i];
+    //     p2++;
+    // }
+
+    // for (i = 0; i < 10; i++) {
+    //     printf("arr2[%d]: %d\n",i,arr[i]);
+    // }
 }
